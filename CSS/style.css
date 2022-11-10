@@ -31,15 +31,30 @@ p {
 
 /* Attributi immagini */
 
-/* Contenitori immagini */
+/* Contenitore principale immagini */
 
-
-.line-one.line-two {
+.gruppo-uno {
     content: '';
     display: table;
     clear: both;
-    height: 100px;
-    
+}
+
+.etichetta-uno {
+    clear: left;
+}
+
+.etichetta-tre {
+    clear: right;
+}
+
+/* Contenitori immagini */
+
+
+.etichetta-uno-etichetta-due.etichetta-tre {
+    content: '';
+    display: table;
+    clear: both;
+
 }
 
 /* Attributi classi etichette */
@@ -53,6 +68,8 @@ p {
 
 .image {
     float: left;
+    width: 100px;
+    height: 100px;
 
 }
 
@@ -68,5 +85,6 @@ p {
 
 .email {
     color: #0264b4;
+    font-weight: bold;
 
 }
