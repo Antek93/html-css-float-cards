@@ -40,7 +40,7 @@ p {
 }
 
 .clearfix {
-    clear:both;
+    clear: both;
     content: '';
     display: table;
 }
@@ -51,7 +51,6 @@ p {
 .etichetta {
     width:calc(100% / 3);
     float: left;
-
 }
 
 /* Attributi classi etichette */
@@ -59,6 +58,7 @@ p {
 .description {
     background-color: black;
     float: left;
+    width: 280px;
     
     
 }
@@ -73,15 +73,29 @@ p {
 .name {
     font-weight: bold;
     color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-left: 5px;
 }
 
 .job {
     font-weight: 100;
     color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-left: 5px;
+   
 }
 
 .email {
     color: #0264b4;
     font-weight: bold;
+    padding-top: 10px;
+    padding-left: 5px;
 
+}
+
+hr {
+    width: 300px;
+    height: 50px;
+    color: white;
+    border: none;
 }
