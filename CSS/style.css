@@ -39,7 +39,7 @@ p {
     clear: both;
 }
 
-.clearfix {
+.clearfix::after {
     clear: both;
     content: '';
     display: table;
