@@ -1,0 +1,24 @@
+/* Attributi generali */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color:#e53170;
+    text-align: center;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.Line-one.Line-two {
+    content: '';
+    display: table;
+    clear: both;
+}
+
