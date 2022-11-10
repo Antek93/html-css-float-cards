@@ -6,19 +6,65 @@
     box-sizing: border-box;
 }
 
-h1 {
-    color:#e53170;
-    text-align: center;
-}
-
 .container {
     width: 1200px;
     margin: 0 auto;
+    font-size: large;
 }
 
-.Line-one.Line-two {
+body {
+    font-family: Sora, Arial, Helvetica, sans-serif;
+}
+
+/* Attributi Intestazione */
+
+h1 {
+    color:#e53170;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Fredoka One, Arial, Helvetica, sans-serif;
+}
+
+p {
+    text-align: center;
+}Li
+
+/* Attributi immagini */
+
+/* Contenitori immagini */
+
+
+.line-one.line-two {
     content: '';
     display: table;
     clear: both;
 }
 
+/* Attributi classi etichette */
+
+.background {
+    background-color: black;
+    content: '';
+    display: table;
+    clear: both;
+    height: 15px;
+}
+
+.image {
+    float: left;
+}
+
+.name {
+    font-weight: bold;
+    color: white;
+}
+
+.job {
+    font-weight: 100;
+    color: white;
+}
+
+.email {
+    color: aqua;
+
+}
