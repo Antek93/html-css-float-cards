@@ -38,20 +38,22 @@ p {
     content: '';
     display: table;
     clear: both;
+    height: 100px;
+    
 }
 
 /* Attributi classi etichette */
 
-.background {
+.description {
     background-color: black;
-    content: '';
-    display: table;
-    clear: both;
-    height: 15px;
+    float: left;
+    
+    
 }
 
 .image {
     float: left;
+
 }
 
 .name {
