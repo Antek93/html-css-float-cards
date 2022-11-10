@@ -6,15 +6,19 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Sora, Arial, Helvetica, sans-serif;
+    width: 1200px;
+    margin: 0 auto;
+    font-size: large;
+}
+
 .container {
     width: 1200px;
     margin: 0 auto;
     font-size: large;
 }
 
-body {
-    font-family: Sora, Arial, Helvetica, sans-serif;
-}
 
 /* Attributi Intestazione */
 
@@ -33,16 +37,11 @@ p {
 
 /* Contenitore principale immagini */
 
-.gruppo-uno {
-    content: '';
-    display: table;
-    clear: both;
-}
 
 .clearfix::after {
-    clear: both;
     content: '';
     display: table;
+    clear: both;
 }
 
 /* Contenitori immagini */
@@ -67,7 +66,6 @@ p {
 .image {
     float: left;
     width: 100px;
-    height: 100px;
     box-shadow: 3px 3px 5px 2px #777777; 
 
 }
